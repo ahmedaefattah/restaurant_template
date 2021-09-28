@@ -15,7 +15,7 @@
 * [Pexels](https://www.pexels.com/)
 ## Screenshot
 
-  ![screenShot](https://github.com/ahmedaefattah/landing_page/blob/master/screenshot/screenshot1.png)
+  ![screenShot](https://github.com/ahmedaefattah/restaurant_template/blob/master/screenshot/screenshot1.png)
 
 
 
