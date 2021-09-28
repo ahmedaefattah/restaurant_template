@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-  ![Restaurant Template](https://restaurant-template-28092021.netlify.app/)
+* [Restaurant Template](https://restaurant-template-28092021.netlify.app/)
   
 
 
