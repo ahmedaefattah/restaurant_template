@@ -10,33 +10,35 @@
   --white:  #ffffff;
 }
 body {
-  font-family: Aclonica;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.5;
   color: var(--main-color);
 }
 h2 {
   font-size: 24px;
+  font-weight: 600;
   text-transform: uppercase;
   color: var(--heading-color);
-  font-weight: 600;
   margin-bottom: 30px;
 }
 h3 {
   color: var(--heading-color);
 }
 h4 {
-  font-size: 19px;
+  font-size: 20px;
+  font-weight: 400;
   line-height: 1.375em;
   color: var(--heading-color);
-  font-weight: 400;
   margin-bottom: 30px;
 }
 h5 {
   color: var(--heading-color);
-}  
+}
+textarea {
+  resize: vertical;
+} 
 .jumbotron {
-
   background-image: url("../images/bg_header.png");
   background-size: cover;
   background-color: var(--header-bg-color);
@@ -51,7 +53,7 @@ h5 {
   font-size: 50px;
 }
 .logo {
- color: var(--white);
+  color: var(--white);
   font-size: 200px;
 }
 .thumbnail {
@@ -87,6 +89,7 @@ h5 {
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
+  font-weight: bold;
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
@@ -124,10 +127,10 @@ h5 {
   visibility:hidden;
 }
 .slide {
-  animation-name: slide;
   -webkit-animation-name: slide;
-  animation-duration: 1s;
+  animation-name: slide;
   -webkit-animation-duration: 1s;
+  animation-duration: 1s;
   visibility: visible;
 }
 .section {
