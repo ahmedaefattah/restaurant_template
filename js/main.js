@@ -1,6 +1,7 @@
 /* main.js file */
 
 $(document).ready(function(){
+
   $(".navbar a, footer a[href='#home']").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
@@ -12,14 +13,15 @@ $(document).ready(function(){
       });
     } 
   });
-  
+
   $(window).scroll(function() {
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
       var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
+      if (pos < winTop + 600) {
+        $(this).addClass("slide");
+      }
     });
   });
+
 })
