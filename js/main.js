@@ -2,7 +2,8 @@
 
 $(document).ready(function(){
 
-  $(".navbar a, footer a[href='#home']").on('click', function(event) {
+   // add smooth scroll to navbar and footer link
+  $(".navbar a, footer a[href='#home'], a[href='#ourmenu']").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
       var hash = this.hash;
@@ -13,7 +14,8 @@ $(document).ready(function(){
       });
     } 
   });
-
+  
+  // add slide class when scroll and make animation
   $(window).scroll(function() {
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
