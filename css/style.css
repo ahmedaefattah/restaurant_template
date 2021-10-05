@@ -2,38 +2,22 @@
 
 /* variablies */
 :root {
-  --main--color: #818181;
-  --heading--color: #303030;
-  --header-bg-color: #095509 ;
-  --footer-bg-color: #262222;
-  --section-bg-color:  #f7f5f5;
+  --main-color: #353535;
+  --heading-color: #303030;
+  --bg-header-color: #095509 ;
+  --bg-footer-color: #262222;
+  --bg-section-color:  #f7f5f5;
   --white:  #ffffff;
 }
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
   color: var(--main-color);
 }
-h2 {
-  font-size: 24px;
-  font-weight: 600;
-  text-transform: uppercase;
+h2,h3,h4,h5 {
   color: var(--heading-color);
+}
+h2,h4 {
   margin-bottom: 30px;
-}
-h3 {
-  color: var(--heading-color);
-}
-h4 {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.375em;
-  color: var(--heading-color);
-  margin-bottom: 30px;
-}
-h5 {
-  color: var(--heading-color);
 }
 textarea {
   resize: vertical;
@@ -41,7 +25,7 @@ textarea {
 .jumbotron {
   background-image: url("../images/bg_header.png");
   background-size: cover;
-  background-color: var(--header-bg-color);
+  background-color: var(--bg-header-color);
   color: var(--white);
   padding: 100px 25px;
 }
@@ -70,7 +54,7 @@ textarea {
   width: 100%;
 }
 .panel {
-  border: 1px solid var(--header-bg-color); 
+  border: 1px solid var(--bg-header-color); 
   transition: box-shadow 0.5s;
 }
 .card {
@@ -80,16 +64,15 @@ textarea {
 .panel:hover, .card:hover {
   box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
-
 .panel-heading {
   color: var(--white) !important;
-  background-color: var(--header-bg-color)!important;
+  background-color: var(--bg-header-color)!important;
   padding: 25px;
   border-bottom: 1px solid transparent;
 }
 .navbar {
   margin-bottom: 0;
-  background-color: var(--header-bg-color);
+  background-color: var(--bg-header-color);
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
@@ -102,10 +85,9 @@ textarea {
   color: var(--white) !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: var(--header-bg-color)!important;
+  color: var(--bg-header-color)!important;
   background-color: var(--white) !important;
 }
-
 .navbar-default .navbar-toggle {
   border-color: transparent;
   color: var(--white) !important;
@@ -113,10 +95,10 @@ textarea {
 .footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
-  color: var(--header-bg-color);
+  color: var(--bg-header-color);
 }
 .footer {
-  background-color: var(--footer-bg-color);
+  background-color: var(--bg-footer-color);
 }
 .footer p {
   color: var(--white);
@@ -125,12 +107,11 @@ textarea {
   color: var(--white);
 }
 .footer a {
-  color: var(--header-bg-color);
+  color: var(--white);
 }
 .slideanim {
   visibility:hidden;
 }
-
 .slide {
   -webkit-animation-name: slide;
   animation-name: slide;
@@ -139,23 +120,25 @@ textarea {
   visibility: visible;
 }
 .section {
-  background-color: var(--section-bg-color);
+  background-color: var(--bg-section-color);
 }
 .glyphicon-star-empty  {
   font-size: 24px;
 }
-.checked {
+.star-checked {
   color: orange;
 }
 .btn-primary {
-  background-color: var(--header-bg-color);
-  border-color: var(--header-bg-color);
+  background-color: var(--bg-header-color);
+  border-color: var(--bg-header-color);
 }
-
 .btn-primary:hover {
   background-color: var(--white);
   border-color: var(--white);
-  color: var(--header-bg-color);
+  color: var(--bg-header-color);
+}
+footer .glyphicon {
+  color: var(--white) !important;
 }
 .fa {
   padding: 10px;
