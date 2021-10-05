@@ -23,7 +23,7 @@ textarea {
   resize: vertical;
 } 
 .jumbotron {
-  background-image: url("../images/bg_header.png");
+  background-image: url("../images/bg_header.jpg");
   background-size: cover;
   background-color: var(--bg-header-color);
   color: var(--white);
