@@ -16,11 +16,14 @@ body {
 h2,h3,h4,h5 {
   color: var(--heading-color);
 }
-h2,h4 {
+h2 {
   margin-bottom: 30px;
 }
 textarea {
   resize: vertical;
+}
+#about {
+  margin-bottom: 3%;
 } 
 .jumbotron {
   background-image: url("../images/bg_header.jpg");
@@ -57,11 +60,11 @@ textarea {
   border: 1px solid var(--bg-header-color); 
   transition: box-shadow 0.5s;
 }
-.card {
+.well {
   transition: box-shadow 0.5s;
   padding: 2%;
 }
-.panel:hover, .card:hover {
+.panel:hover, .well:hover {
   box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
 .panel-heading {
