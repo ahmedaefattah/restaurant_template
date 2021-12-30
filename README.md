@@ -16,7 +16,7 @@
 
 ## Screenshot
 
-  ![screenshot](https://github.com/ahmedaefattah/restaurant_template/blob/main/screenshot/screenshot_1.png)
+  ![screenshot](https://github.com/ahmedaefattah/restaurant_template/blob/main/screenshots/screenshot_1.png)
 
 
 ## Live Demo
